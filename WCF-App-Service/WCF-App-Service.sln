@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF-App-Service", "WCF-App-Service\WCF-App-Service.csproj", "{3B6C19DC-51CA-4F1A-9089-E2F4C5559315}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF-App-Client", "WCF-App-Client\WCF-App-Client.csproj", "{573688CB-1A56-470B-956B-977D304A2C4B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B6C19DC-51CA-4F1A-9089-E2F4C5559315} = {3B6C19DC-51CA-4F1A-9089-E2F4C5559315}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{3B6C19DC-51CA-4F1A-9089-E2F4C5559315}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B6C19DC-51CA-4F1A-9089-E2F4C5559315}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B6C19DC-51CA-4F1A-9089-E2F4C5559315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573688CB-1A56-470B-956B-977D304A2C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573688CB-1A56-470B-956B-977D304A2C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573688CB-1A56-470B-956B-977D304A2C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573688CB-1A56-470B-956B-977D304A2C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
