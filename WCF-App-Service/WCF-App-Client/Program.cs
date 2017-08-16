@@ -10,7 +10,9 @@ namespace WCF_App_Client
     {
         static void Main(string[] args){
             ServiceReference1.WCFAppServiceClient proxy = new ServiceReference1.WCFAppServiceClient();
-
+            var msg = proxy.GetData(101);
+            Console.WriteLine(msg);
+            Console.ReadKey();
         }
     }
 }
